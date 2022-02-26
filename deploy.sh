@@ -8,7 +8,7 @@ rm -rf ./bin
 
 echo "+++++ build go packages +++++"
 
-cd source/appv1
+cd source/hello
 make test
 make build
 cd ../..
